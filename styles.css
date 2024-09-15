@@ -1,0 +1,171 @@
+body{
+    background-color: black;
+    margin:0;
+}
+section{
+    width: 720px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+
+
+/*section1*/
+
+
+
+
+#header{
+    background-image: url(images/paris.jpg);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+    
+}
+#header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border:6px solid  #1D3557;
+    background: #1D3557;
+    border-radius: 10px;
+    padding: 3px 10px;
+    margin : 10px auto;
+
+
+}
+#header p{
+   width: 400px;
+   height: 39px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   color: #FFFFFF;
+   border:6px solid  #457B9D;
+   background: #457B9D;
+   border-radius: 10px;
+   padding: 3px 40px;
+   text-align: center;
+   margin : 0 auto;
+   
+}
+
+
+/*section2*/
+
+
+
+#main{
+  padding:50px 0 30px 0;
+  background-color:  #F1FAEE;
+  
+  
+}
+#main h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size:24px;
+    color: #1D3557;
+    margin-top:0;
+    margin-bottom: 50px;
+    
+
+}
+#activities{
+    display: flex;
+    justify-content: space-around;
+   
+   
+
+}
+.activity {
+    text-align: center;
+    width: 198px;
+    height: 226px;
+    color: #1D3557;
+    
+    
+    
+}
+.activity h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+.activity p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #1D3557;
+
+}
+.activity img{
+   
+    
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+/*section3*/
+
+
+#footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#card img{
+    width: 180px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 294px;
+    background: #A8DADC;
+    border-radius: 10px;
+    border-bottom:5px solid #1D3557;
+    padding:0 15px;
+
+    
+    
+}
+#card h2{
+    color:#1D3557;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+
+}
+#card p{
+    color:#1D3557;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+
+}
+#card h3{
+    color:#1D3557;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+
+}
